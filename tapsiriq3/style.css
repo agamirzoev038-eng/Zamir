@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.kart {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kart img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: Arial;
+    margin: 15px 0 5px;
+}
+
+.qiymet {
+    color: green;
+    font-weight: bold;
+    font-family: Arial;
+}
