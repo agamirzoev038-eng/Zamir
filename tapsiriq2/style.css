@@ -1,0 +1,15 @@
+.qirmizi {
+    width: 60%;
+    height: 700px;
+    background-color: red;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.mavi {
+    width: 20%;
+    height: 30%;
+    background-color: blue;
+}
