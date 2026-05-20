@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapşırıq 1</title>
+    <style>
+        /* Səhifənin ümumi arxa planı və mərkəzləşdirilməsi */
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Kvadratları daxilində saxlayan ana qutu */
+        .container {
+            position: relative;
+            width: 390px;
+            height: 230px;
+        }
+
+        /* Bütün kvadratların ortaq ölçüləri */
+        .box {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+        }
+
+        /* Arxa fondakı kvadratlar (z-index: 1) */
+        .green {
+            background-color: #3f7e23;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .blue {
+            background-color: #0000ff;
+            top: 0;
+            left: 170px;
+            z-index: 1;
+        }
+
+        /* Ön fondakı kvadratlar (z-index: 2 - digərlərinin üstünə çıxarır) */
+        .yellow {
+            background-color: #ffff40;
+            top: 80px;
+            left: 70px;
+            z-index: 2;
+        }
+
+        .red {
+            background-color: #ea3323;
+            top: 80px;
+            left: 240px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+        <div class="box red"></div>
+    </div>
+
+</body>
+</html>
