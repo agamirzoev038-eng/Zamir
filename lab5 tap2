@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Məhsullar</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; font-weight: bold; }
+        body { background: #e0e0e0; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; width: 100%; padding: 20px; }
+        .card { background: #fff; padding: 15px; }
+        .img-box { position: relative; height: 180px; }
+        img { width: 100%; height: 100%; object-fit: cover; }
+        btn { position: absolute; bottom: 0; right: 0; background: #ff3b30; color: #fff; padding: 5px 15px; font-size: 14px; cursor: pointer; }
+        .info { display: flex; justify-content: space-between; margin-top: 15px; font-size: 16px; }
+        .price { color: #28a745; }
+    </style>
+</head>
+<body>
+
+    <div class="grid">
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 1</span><span class="price">10 AZN</span></div></div>
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 2</span><span class="price">15 AZN</span></div></div>
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 3</span><span class="price">20 AZN</span></div></div>
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 1</span><span class="price">10 AZN</span></div></div>
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 2</span><span class="price">15 AZN</span></div></div>
+        <div class="card"><div class="img-box"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400"><btn>Click</btn></div><div class="info"><span>Məhsul 3</span><span class="price">20 AZN</span></div></div>
+    </div>
+
+</body>
+</html>
