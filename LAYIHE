@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Destinasiyalar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Populyar Destinasiyalar</h1>
+
+<div class="cards">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+    <h2>Maldiv</h2>
+    <p>₼45,000</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+    <h2>İsveçrə</h2>
+    <p>₼38,000</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a">
+    <h2>Paris</h2>
+    <p>₼32,000</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2">
+    <h2>Bali</h2>
+    <p>₼28,000</p>
+  </div>
+
+</div>
+
+</body>
+</html>
