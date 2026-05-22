@@ -1,0 +1,87 @@
+<style>
+    body{
+      background:#f3f3f3;
+      font-family:Arial, sans-serif;
+      margin:0;
+      padding:40px;
+    }
+
+    h1{
+      text-align:center;
+      margin-bottom:40px;
+    }
+
+    .cards{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      width:250px;
+      background:white;
+      border-radius:15px;
+      padding:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card img{
+      width:100%;
+      height:250px;
+      border-radius:15px;
+      object-fit:cover;
+    }
+
+    .card h2{
+      font-size:25px;
+      margin:15px 0 10px;
+    }
+
+    .card p{
+      color:blue;
+      font-size:20px;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Populyar Destinasiyalar</h1>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldiv">
+      <h2>Maldiv</h2>
+      <p>₼45,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="İsveçrə">
+      <h2>İsveçrə</h2>
+      <p>₼38,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris">
+      <h2>Paris</h2>
+      <p>₼32,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2" alt="Bali">
+      <h2>Bali</h2>
+      <p>₼28,000</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
